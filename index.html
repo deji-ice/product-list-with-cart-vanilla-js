@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Product list with cart</title>
+    <script src="./index.js" type="module" defer></script>
+  </head>
+  <body class="bg-rose-50 flex flex-col">
+    <section class="flex flex-col p-5">
+      <h1 class="text-3xl font-bold text-[#2e1813] mb-5">Desserts</h1>
+      <div id="dessert-container" class="grid grid-cols-1 gap-5"></div>
+    </section>
+    <section
+      class="flex flex-col items-start justify-center bg-white m-5 p-5 rounded-2xl gap-5"
+    >
+      <h2 class="text-2xl font-bold text-[#753c03]">Your Cart(0)</h2>
+      <div class="flex flex-col items-center justify-center w-full h-full">
+        <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+        <p class="text-sm text-[#753c03] font-semibold">
+          Your added items will appear here
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
